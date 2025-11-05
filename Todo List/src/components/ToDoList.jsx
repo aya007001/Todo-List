@@ -55,7 +55,7 @@ export default function ToDoList() {
 
   useEffect(() => {
     dispatch({ type: "get" });
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []); // Empty dependency array - runs only once on mount
 
   function changeDisplayType(e) {
